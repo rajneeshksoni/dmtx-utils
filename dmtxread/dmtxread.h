@@ -58,6 +58,11 @@ Contact: mike@dragonflylogic.com
 
 typedef struct {
    int codewords;       /* -c, --codewords */
+   int wd;       /* -w, --width */
+   int ht;       /* -h, --height */
+   char *orgFile; /* -o --org-file */      
+   char *degFile; /* -d --degreded-file */
+   char *vmafRefFile; /* -v --vmafref-file */
    int edgeMin;         /* -e, --minimum-edge */
    int edgeMax;         /* -E, --maximum-edge */
    int scanGap;         /* -g, --gap */

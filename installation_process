@@ -1,0 +1,16 @@
+======================================================
+Setup for Audio video quality measurement
+======================================================
+- git clone https://github.com/dmtx/libdmtx.git
+- ./configure
+- make; make install
+
+- git clone https://github.com/rajneeshksoni/dmtx-utils.git
+- cd dmtx-utils
+- ./autoget.sh
+-  CC=gcc-10 CXX=gcc-10 CFLAGS="-I/usr/local/include"  ./configure
+- make
+
+- generate_qr_coded_video.sh should be used to generate the video with embedded QA code
+- 
+
